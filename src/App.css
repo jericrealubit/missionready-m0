@@ -18,7 +18,7 @@ body {
 }
 
 .app {
-  padding: 4rem;
+  padding: 1rem 2rem 2rem 2rem;
 
   display: flex;
   justify-content: center;
@@ -42,7 +42,7 @@ h1 {
 
 .search {
   width: 71%;
-  margin: 4rem 0 2rem;
+  margin: 1rem 0 1rem;
 
   display: flex;
   align-items: center;
@@ -107,7 +107,7 @@ h1 {
 
 .container {
   width: 100%;
-  margin-top: 3rem;
+  margin-top: 1rem;
 
   display: flex;
   justify-content: center;
@@ -194,7 +194,7 @@ h1 {
 
 @media screen and (max-width: 600px) {
   .app {
-    padding: 4rem 2rem;
+    padding: 1rem 2rem 2rem 2rem;
   }
 
   .search {
