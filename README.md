@@ -10,6 +10,8 @@
 
 ### URL: https://m0-movie-app.netlify.app/
 
+#### Presentation: https://www.loom.com/share/eaf52ed38a104ce39b38026f8d460f7d?sid=96e3f5f9-80a3-47ba-96d5-8c85061e0f72
+
 - Pressing [Enter] button after typing something in the search input will do a search
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
