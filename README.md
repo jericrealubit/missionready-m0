@@ -4,9 +4,9 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://github.com/jericrealubit/missionready-m0)
 
-### Movie search app using React
+### Movie search app using React.js
 
-### Responsive Header Navigation using Tailwind
+### Responsive Header Navigation using Tailwind CSS
 
 ### URL: https://m0-movie-app.netlify.app/
 
