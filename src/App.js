@@ -22,7 +22,7 @@ const App = () => {
     const initialTerm =
       searchTerm.length !== 0 ? searchTerm : new Date().getFullYear();
     searchMovies(initialTerm);
-  }, []);
+  }, [searchTerm]);
 
   const handleKeyDown = (e) => {
     if (e.keyCode === 13) {
