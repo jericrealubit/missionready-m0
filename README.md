@@ -4,8 +4,11 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://github.com/jericrealubit/missionready-m0)
 
-Movie search app using React
-Responsive Header Navigation using Tailwind
+### Movie search app using React
+
+### Responsive Header Navigation using Tailwind
+
+### URL: https://m0-movie-app.netlify.app/
 
 - Pressing [Enter] button after typing something in the search input will do a search
 
