@@ -102,8 +102,9 @@ const App = () => {
         </div>
 
         <div className="flex justify-center">
-          <div className="search flex justify-center">
+          <div className="search flex justify-center w-95">
             <input
+              className="w-95"
               placeholder="Search for movies"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
@@ -118,17 +119,19 @@ const App = () => {
         </div>
 
         <div className="body">
-          {movies?.length > 0 ? (
-            <div className="container">
-              {movies.map((movie) => (
-                <MovieCard movie={movie} />
-              ))}
-            </div>
-          ) : (
-            <div className="empty">
-              <h2>No moview found</h2>
-            </div>
-          )}
+          <div className="container">
+            {movies?.length > 0 ? (
+              <>
+                {movies.map((movie) => (
+                  <MovieCard movie={movie} />
+                ))}
+              </>
+            ) : (
+              <div className="empty">
+                <h2>No moview found</h2>
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </div>
