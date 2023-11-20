@@ -58,6 +58,7 @@ const App = () => {
               </a>
             </div>
             <div className="flex items-center space-x-1">
+              {/* navigation menu - will show on desktop version */}
               <div className="hidden md:block">
                 <a href="/" className="py-5 px-3">
                   Home
@@ -75,6 +76,8 @@ const App = () => {
                   Signup
                 </a>
               </div>
+
+              {/* Hamburger icon - will show on mobile version */}
               <div className="md:hidden">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
