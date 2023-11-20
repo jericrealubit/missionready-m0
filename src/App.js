@@ -37,7 +37,7 @@ const App = () => {
           <div className="flex justify-between space-x-4">
             <div>
               <a
-                href="#"
+                href="/"
                 className="flex items-center py-3 px-2 text-gray-100 font-bold"
               >
                 <svg
@@ -59,17 +59,17 @@ const App = () => {
             </div>
             <div className="flex items-center space-x-1">
               <div className="hidden md:block">
-                <a href="#" className="py-5 px-3">
+                <a href="/" className="py-5 px-3">
                   Home
                 </a>
-                <a href="#" className="py-5 px-3">
+                <a href="/products" className="py-5 px-3">
                   Products
                 </a>
-                <a href="#" className="py-5 px-3">
+                <a href="/services" className="py-5 px-3">
                   Services
                 </a>
                 <a
-                  href="#"
+                  href="/signup"
                   className="py-2 px-3 bg-yellow-400 text-yellow-900 rounded hover:bg-yellow-300 hover:text-yellow-800"
                 >
                   Signup
