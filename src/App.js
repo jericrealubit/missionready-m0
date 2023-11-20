@@ -19,8 +19,16 @@ const App = () => {
   };
 
   useEffect(() => {
-    searchMovies("spiderman");
+    const initialTerm =
+      searchTerm.length !== 0 ? searchTerm : new Date().getFullYear();
+    searchMovies(initialTerm);
   }, []);
+
+  const handleKeyDown = (e) => {
+    if (e.keyCode === 13) {
+      searchMovies(e.target.value);
+    }
+  };
 
   return (
     <div className="app">
@@ -99,6 +107,7 @@ const App = () => {
               placeholder="Search for movies"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
+              onKeyDown={handleKeyDown}
             />
             <img
               src={SearchIcon}
