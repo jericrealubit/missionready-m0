@@ -23,4 +23,4 @@
 [Tailwind-url]: https://tailwindcss.com/
 [React]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
-[product-screenshot]: public/images/screenshot.png
+[product-screenshot]: images/screenshot.png
