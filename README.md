@@ -14,8 +14,6 @@
 
 - Pressing [Enter] button after typing something in the search input will do a search
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ### Built With
 
 [![React][React]][React-url]
